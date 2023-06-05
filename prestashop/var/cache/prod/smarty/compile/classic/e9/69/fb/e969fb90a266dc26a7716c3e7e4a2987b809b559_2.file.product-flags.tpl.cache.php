@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-05-31 14:21:34
+/* Smarty version 4.3.1, created on 2023-06-05 10:42:27
   from '/prestashop/themes/classic/templates/catalog/_partials/product-flags.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_64773bce9b0f38_91727853',
+  'unifunc' => 'content_647d9ff3f2c777_90146979',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,21 +20,21 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64773bce9b0f38_91727853 (Smarty_Internal_Template $_smarty_tpl) {
+function content_647d9ff3f2c777_90146979 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->compiled->nocache_hash = '57630979964773bce9af8d8_42004056';
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_197029453064773bce9afe67_60634100', 'product_flags');
+$_smarty_tpl->compiled->nocache_hash = '11333189647d9ff3f2b062_56304976';
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_837426316647d9ff3f2b642_20185299', 'product_flags');
 ?>
 
 <?php }
 /* {block 'product_flags'} */
-class Block_197029453064773bce9afe67_60634100 extends Smarty_Internal_Block
+class Block_837426316647d9ff3f2b642_20185299 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_flags' => 
   array (
-    0 => 'Block_197029453064773bce9afe67_60634100',
+    0 => 'Block_837426316647d9ff3f2b642_20185299',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

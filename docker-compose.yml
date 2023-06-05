@@ -16,8 +16,7 @@ services:
     volumes:
       - ./conf/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
       - ./prestashop:/prestashop
-      - ./conf/example.crt:/cert/certificado.crt
-      - ./conf/example.key:/cert/chave.key
+
   db:
     image: mariadb
 
