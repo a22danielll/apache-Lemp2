@@ -7,8 +7,10 @@ services:
       - 80:80
       - 443:443
     volumes:
+      - ./wordpress/wordpress
       - ./prestashop:/prestashop
       - ./conf/vhostnginx.conf:/etc/nginx/conf.d/vhost.conf
+      - ./conf/wordpress.conf:/etc/nginx/conf.d/wordpress.conf
       - ./conf/example.crt:/cert/certificado.crt
       - ./conf/example.key:/cert/chave.key
   prestashop:
