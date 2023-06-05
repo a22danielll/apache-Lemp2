@@ -27,5 +27,7 @@ services:
       MARIADB_PASSWORD: presta
     volumes:
       - basedatos:/var/lib/mysql
+      - ./db:/db
+      - ./db/backup.sql:/docker-entrypoint-initdb.d/backup.sql
 volumes:
   basedatos:
