@@ -1,0 +1,3 @@
+https://prestashop.webtest.dedyn.io/admin3/index.php/sell/catalog/categories?_token=-JW_94D7Apv2hqmBMdQ_aT5Qng4olzyTi7ICwMQV-jA
+http://prestashop.webtest.dedyn.io/install/index.php
+https://prestashop.webtest.dedyn.io/index.php
